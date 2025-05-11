@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff; stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:#cccccc; stop-opacity:1"></stop>
+    </linearGradient>
+  </defs>
+  <text x="10" y="55" font-family="Impact, sans-serif" font-size="52" fill="url(#grad)" letter-spacing="5" transform="skewX(-10)">
+    FAM
+  </text>
+</svg>

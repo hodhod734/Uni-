@@ -1,0 +1,315 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+* {
+     margin: 0;   
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+     font-family: "poppins", serif;
+}
+
+body {
+background-color: #222831;
+
+}
+
+
+
+header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 2rem auto;
+     padding: 0 0.5rem; 
+     max-width: 1200px;
+}
+
+.navigation ul{
+     display: flex;
+     list-style-type: none;
+     gap: 2rem;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navigation a:hover {
+    color: #00adb5;
+}
+
+hr{
+    opacity: 20%;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.arrow {
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+
+.herosub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.name {
+    font-size: 3rem;
+    color: #eeeeee;
+}
+
+.title {
+    font-size: 4rem;
+    color: #00adb5;
+}
+
+.heroBtns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hireMe {
+    background-color: #00adb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.CV {
+    background-color: rgba(57, 62, 70, 0.75);
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    backdrop-filter: blur(4px);
+}
+
+.AboutUs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.texttitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.aboutname {
+    color: #eeeeee;
+
+}
+.abouttitle{
+    color: #00adb5
+}
+
+.aboutUspar{
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+
+.Works {
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+    background-image: url(assets/background.svg)
+    
+}
+
+.workscontainer {
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: left;
+margin: 5rem auto;
+max-width: 1200px;
+
+}
+
+.projectTitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+
+}
+
+.Works ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Works li {
+    border-radius: 16px;
+    background-color: rgba(57, 62, 70, 0.5);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+
+}
+
+.Works li img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.Works li :hover {
+    transform: scale(1.5);
+}
+
+
+
+/* Login Section Styles */
+.login-section {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color:#222831;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #555;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.Contactcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.Contacttitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.Contact h3, .Contact a {
+    color: #eeeeee;
+    text-decoration:none;
+}
+
+.emailAndPhone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
